@@ -1,0 +1,18 @@
+# to eun sample file
+go run investment_calculator.go
+
+# to create a mod file 
+go mod init example.com/investment_calculator
+
+# to build this will create a exe file
+go build
+
+# navigate to created mod file and execute this will execute the logic in app.go file
+./investment_calculator
+
+# printf
+we can mostly used for float, rounding(eg: %.1f) it will roundup with 1 decimal
+
+# loops
+for i := 0; i < 10; i++ normal loop
+infinite loop : for {}

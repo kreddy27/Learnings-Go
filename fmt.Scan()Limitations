@@ -1,0 +1,8 @@
+# fmt.Scan() Limitations
+The fmt.Scan() function is a great function for easily fetching & using user input through the command line.
+
+But this function also has an important limitation: You can't (easily) fetch multi-word input values. Fetching text that consists of more than a single word is tricky with this function.
+
+For the moment, we only need single words / digits as input, so that's no problem.
+
+Later in the course, when we work on projects where more complex input values are required, you'll therefore learn about an alternative to fmt.Scan().
